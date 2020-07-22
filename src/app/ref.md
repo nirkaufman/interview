@@ -14,7 +14,7 @@ in `DropDown` component:
 - built-in directives (`*ngIf`, `*ngFor`)
 - component scope styles
 - custom control: the use of `NG_VALUE_ACCESSOR` in `providers`
-- component class basics: `@Input`, `onInit`, private members
+- component class basics: `@Input`, `onInit`, private members, interfaces
 
 __basics__
 ```typescript
@@ -70,9 +70,3 @@ export class DropdownComponent implements OnInit, ControlValueAccessor {
   }
 }
 ```
-
-### Required knowledge and techniques
-1. configure TSConfig to import JSON as module
-2. implement your own custom value accessor
-3. use DI for NG_VALUE_ACCESSOR multi token
-4. IImplementing an interface
