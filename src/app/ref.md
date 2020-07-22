@@ -70,3 +70,10 @@ export class DropdownComponent implements OnInit, ControlValueAccessor {
   }
 }
 ```
+
+# STEP 2: Extra features - more angular specifics
+
+- build a pipe to filter the options
+- build a directive to support click outside
+
+
