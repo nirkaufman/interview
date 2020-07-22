@@ -3,7 +3,7 @@
 Build a customizable dropdown component as a 
 custom form control.
 
-# Most basic implementation (core Angular skills)
+# STEP 1: Most basic implementation (core Angular skills)
 
 in `AppComponent`:
 - build a simple form with reactive forms module
